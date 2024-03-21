@@ -1,0 +1,20 @@
+
+#father{
+display: inline-block;
+    display: flex;
+ background-color: hotpink;
+ flex-wrap:wrap ;
+}
+
+.items{
+    margin: 10px;
+    border: 4px;
+ flex-wrap: wrap;
+height: 200px;
+width: 140px;
+    border-style: solid; 
+    padding: 10px;
+    font-size: 20px;
+  
+}
+
