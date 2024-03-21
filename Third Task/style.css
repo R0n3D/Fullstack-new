@@ -2,10 +2,15 @@
 {
     background-color: hsl(30, 38%, 92%);
 }
+.product-image{
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    
+}
 .box-of-product{
 display: flex;
-flex-wrap: wrap ;
-width: 500px;
+flex-direction: row;
 margin: auto;
 margin-top: 100px;
 border-radius: 5px;
@@ -13,18 +18,32 @@ border-color: brown;
 border-width: 5px;
 border-style: solid;
 padding: 20px;
-width: 600px;
-flex-direction: row;
-align-items: center;
-text-align: left;
-
+width: 1000px;
 
 }
-
-.product-image{
-    width: 500px;
-    height: 500px;
-    border-radius: 10px;
-    
+.product-title{
+    font-size: 45px;
+    padding: 10px;
 }
 
+.product-text{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.price-after{
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    color: green;
+}
+.price-before{
+    display: flex;
+    flex-direction: row;
+    font-size: 35px;
+    color: green;
+}
+.add-to-card{
+
+    background-color: green;
+}
