@@ -1,3 +1,4 @@
+
 .body
 {
     background-color: hsl(30, 38%, 92%);
@@ -18,7 +19,7 @@ border-color: brown;
 border-width: 5px;
 border-style: solid;
 padding: 20px;
-width: 1000px;
+width: 900px;
 
 }
 .product-title{
@@ -34,8 +35,8 @@ width: 1000px;
 .price-after{
     display: flex;
     flex-direction: row;
-    font-size: 50px;
     color: green;
+    
 }
 .price-before{
     display: flex;
