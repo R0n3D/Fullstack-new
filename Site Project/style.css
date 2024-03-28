@@ -57,6 +57,12 @@ nav ul li a {
 
 }
 
+a:hover button {
+background-color: green;
+transform: scale(1.3);
+}
+
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -76,7 +82,6 @@ nav ul li a {
 
 .product img:hover {
   transform: scale(1.3);
-
 }
 
 .price {
